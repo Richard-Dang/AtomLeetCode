@@ -1,0 +1,7 @@
+{
+    "atom-workspace": {
+        "ctrl-alt-e": "leetcode:easy",
+        "ctrl-alt-m": "leetcode:medium",
+        "ctrl-alt-h": "leetcode:hard"
+    }
+}

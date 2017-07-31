@@ -1,0 +1,19 @@
+{
+    "name": "leetcode",
+    "main": "./lib/leetcode",
+    "version": "0.0.0",
+    "description": "A short description of your package",
+    "keywords": [],
+    "activationCommands": {
+        "atom-workspace": ["leetcode:easy", "leetcode:medium", "leetcode:hard"]
+    },
+    "repository": "https://github.com/atom/leetcode",
+    "license": "MIT",
+    "engines": {
+        "atom": ">=1.0.0 <2.0.0"
+    },
+    "dependencies": {
+        "cheerio": "^0.20.0",
+        "request": "^2.73.0"
+    }
+}

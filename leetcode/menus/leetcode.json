@@ -1,0 +1,39 @@
+{
+    "context-menu": {
+        "atom-text-editor": [{
+            "label": "Leetcode",
+            "submenu": [{
+                    "label": "Easy",
+                    "command": "leetcode:easy"
+                },
+                {
+                    "label": "Medium",
+                    "command": "leetcode:medium"
+                },
+                {
+                    "label": "Hard",
+                    "command": "leetcode:hard"
+                }
+            ]
+        }]
+    },
+    "menu": [{
+        "label": "Packages",
+        "submenu": [{
+            "label": "Leetcode",
+            "submenu": [{
+                    "label": "Easy",
+                    "command": "leetcode:easy"
+                },
+                {
+                    "label": "Medium",
+                    "command": "leetcode:medium"
+                },
+                {
+                    "label": "Hard",
+                    "command": "leetcode:hard"
+                }
+            ]
+        }]
+    }]
+}
