@@ -7,7 +7,7 @@
     "activationCommands": {
         "atom-workspace": ["leetcode:easy", "leetcode:medium", "leetcode:hard"]
     },
-    "repository": "https://github.com/atom/leetcode",
+    "repository": "https://github.com/Richard-Dang/AtomLeetCode",
     "license": "MIT",
     "engines": {
         "atom": ">=1.0.0 <2.0.0"
