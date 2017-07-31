@@ -1,23 +1,23 @@
 {
-    "name": "Leetcode",
-    "main": "./lib/leetcode",
-    "version": "0.4.0",
-    "description": "Leetcode from Atom",
-    "keywords": [],
-    "activationCommands": {
-        "atom-workspace": [
-            "leetcode:easy",
-            "leetcode:medium",
-            "leetcode:hard"
-        ]
-    },
-    "repository": "https://github.com/Richard-Dang/AtomLeetCode",
-    "license": "MIT",
-    "engines": {
-        "atom": ">=1.0.0 <2.0.0"
-    },
-    "dependencies": {
-        "cheerio": "^0.20.0",
-        "request": "^2.73.0"
-    }
+  "name": "Leetcode",
+  "main": "./lib/leetcode",
+  "version": "0.5.0",
+  "description": "Leetcode from Atom",
+  "keywords": [],
+  "activationCommands": {
+    "atom-workspace": [
+      "leetcode:easy",
+      "leetcode:medium",
+      "leetcode:hard"
+    ]
+  },
+  "repository": "https://github.com/Richard-Dang/AtomLeetCode",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "cheerio": "^0.20.0",
+    "request": "^2.73.0"
+  }
 }
