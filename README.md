@@ -1,4 +1,4 @@
-# Leetcode
+# [Leetcode](https://atom.io/packages/leetcode)
 
 Leetcode for Atom.
 
