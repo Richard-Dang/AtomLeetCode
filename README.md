@@ -1,6 +1,9 @@
 # [Leetcode](https://atom.io/packages/leetcode)
 
-Leetcode for Atom.
+## Description
+
+Atom Leetcode is an atom package that gives programmers the ability to code Leetcode problems straight from their text editors. Users have the option to select the difficulty of the problem and the language they wish to code in. In addition,
+certain test cases will automatically be populated for testing purposes.
 
 ## Features
 
