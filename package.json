@@ -1,7 +1,7 @@
 {
   "name": "Leetcode",
   "main": "./lib/leetcode",
-  "version": "0.7.3",
+  "version": "0.7.4",
   "description": "Leetcode from Atom",
   "keywords": [],
   "activationCommands": {
