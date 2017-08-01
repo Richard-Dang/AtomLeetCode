@@ -7,6 +7,7 @@ Leetcode for Atom.
 - Automatically grab a easy, medium or hard question from Leetcode
 - Code the question straight from Atom
 - Autodetect current language
+- Certain examples with test cases will be automatically be populated for testing
 
 ## Future Updates
 
