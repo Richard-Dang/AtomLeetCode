@@ -9,6 +9,11 @@ Leetcode for Atom.
 - Autodetect current language
 - Certain examples with test cases will automatically be populated for testing
 
+## Screenshots
+
+![Leetcode](http://richarddang.com/images/portfolio/atom-leetcode.gif)
+
+
 ## Future Updates
 
 - Link to Leetcode for code submission
@@ -17,7 +22,3 @@ Leetcode for Atom.
 ## Credits
 
 [@AkibShahjahan](https://github.com/AkibShahjahan)
-
-
-
-![A screenshot of your package](https://f.cloud.github.com/assets/69169/2290250/c35d867a-a017-11e3-86be-cd7c5bf3ff9b.gif)
