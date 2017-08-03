@@ -17,6 +17,7 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
+    "async": "^2.5.0",
     "cheerio": "^0.20.0",
     "request": "^2.73.0"
   }
