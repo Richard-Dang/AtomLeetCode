@@ -13,6 +13,10 @@
                 {
                     "label": "Hard",
                     "command": "leetcode:hard"
+                },
+                {
+                    "label": "answer",
+                    "command": "leetcode:answer"
                 }
             ]
         }]
@@ -32,6 +36,10 @@
                 {
                     "label": "Hard",
                     "command": "leetcode:hard"
+                },
+                {
+                    "label": "answer",
+                    "command": "leetcode:answer"
                 }
             ]
         }]
