@@ -15,8 +15,8 @@
                     "command": "leetcode:hard"
                 },
                 {
-                    "label": "answer",
-                    "command": "leetcode:answer"
+                    "label": "Solutions",
+                    "command": "leetcode:solutions"
                 }
             ]
         }]
@@ -38,8 +38,8 @@
                     "command": "leetcode:hard"
                 },
                 {
-                    "label": "answer",
-                    "command": "leetcode:answer"
+                    "label": "Solutions",
+                    "command": "leetcode:solutions"
                 }
             ]
         }]
