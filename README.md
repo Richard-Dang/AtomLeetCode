@@ -11,6 +11,7 @@ certain test cases will automatically be populated for testing purposes.
 - Code the question straight from Atom
 - Autodetect current language
 - Certain examples with test cases will automatically be populated for testing
+- Obtain code solutions straight from the Leetcode community
 
 ## Screenshots
 
@@ -20,7 +21,6 @@ certain test cases will automatically be populated for testing purposes.
 ## Future Updates
 
 - Link to Leetcode for code submission
-
 
 ## Credits
 
