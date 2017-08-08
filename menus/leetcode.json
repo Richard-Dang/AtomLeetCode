@@ -17,6 +17,10 @@
                 {
                     "label": "Solutions",
                     "command": "leetcode:solutions"
+                },
+                {
+                    "label": "Search",
+                    "command": "leetcode:search"
                 }
             ]
         }]
@@ -40,6 +44,10 @@
                 {
                     "label": "Solutions",
                     "command": "leetcode:solutions"
+                },
+                {
+                    "label": "Search",
+                    "command": "leetcode:search"
                 }
             ]
         }]
