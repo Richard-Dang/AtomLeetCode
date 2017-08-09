@@ -4,6 +4,8 @@
 [![dependencies Status](https://david-dm.org/Richard-Dang/AtomLeetCode/status.svg)](https://david-dm.org/Richard-Dang/AtomLeetCode)
 [![devDependencies Status](https://david-dm.org/Richard-Dang/AtomLeetCode/dev-status.svg)](https://david-dm.org/Richard-Dang/AtomLeetCode?type=dev)
 
+[Change Log](https://github.com/Richard-Dang/AtomLeetCode/blob/master/CHANGELOG.md)
+
 
 ## Description
 
