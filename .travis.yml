@@ -2,7 +2,7 @@ language: objective-c
 
 notifications:
   email:
-       recipients:
+    recipients:
       - richardspacedang@gmail.com
     on_success: always
     on_failure: always
