@@ -20,13 +20,13 @@
     },
     "dependencies": {
         "async": "^2.5.0",
-        "cheerio": "^0.20.0",
+        "cheerio": "^1.0.0-rc.2",
         "request": "^2.73.0"
     },
     "devDependencies": {
         "auto-changelog": "^0.3.1"
     },
     "scripts": {
-        "version": "auto-changelog --package; git add CHANGELOG.md"
+        "version": "auto-changelog --package --template compact; git add CHANGELOG.md"
     }
 }

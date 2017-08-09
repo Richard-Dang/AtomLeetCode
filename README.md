@@ -1,8 +1,8 @@
 # [Leetcode](https://atom.io/packages/leetcode)
 
 [![Build Status](https://travis-ci.org/Richard-Dang/AtomLeetCode.svg?branch=master)](https://travis-ci.org/Richard-Dang/AtomLeetCode)
-[![Dependency Status](https://david-dm.org/Richard-Dang/AtomLeetCode.svg)](https://david-dm.org/Richard-Dang/AtomLeetCode)
-[![devDependency Status](https://david-dm.org/Richard-Dang/AtomLeetCode.svg)](https://david-dm.org/Richard-Dang/AtomLeetCode#info=devDependencies)
+[![dependencies Status](https://david-dm.org/Richard-Dang/AtomLeetCode/status.svg)](https://david-dm.org/Richard-Dang/AtomLeetCode)
+[![devDependencies Status](https://david-dm.org/Richard-Dang/AtomLeetCode/dev-status.svg)](https://david-dm.org/Richard-Dang/AtomLeetCode?type=dev)
 
 
 ## Description
