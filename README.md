@@ -25,7 +25,10 @@ certain test cases will automatically be populated for testing purposes.
 - Difficulty and solution selection inside search menu
 - Confirm and cancel button in search menu
 - Automatically complete question search
+- Write specs
+- Convert to CoffeeScript
+- Implement TravisCI
 
 ## Credits
 
-[@AkibShahjahan](https://github.com/AkibShahjahan) 
+[@AkibShahjahan](https://github.com/AkibShahjahan)
