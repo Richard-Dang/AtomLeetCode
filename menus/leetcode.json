@@ -3,16 +3,20 @@
         "atom-text-editor": [{
             "label": "Leetcode",
             "submenu": [{
-                    "label": "Easy",
-                    "command": "leetcode:easy"
-                },
-                {
-                    "label": "Medium",
-                    "command": "leetcode:medium"
-                },
-                {
-                    "label": "Hard",
-                    "command": "leetcode:hard"
+                    "label": "Difficulty",
+                    "submenu": [{
+                            "label": "Easy",
+                            "command": "leetcode:easy"
+                        },
+                        {
+                            "label": "Medium",
+                            "command": "leetcode:medium"
+                        },
+                        {
+                            "label": "Hard",
+                            "command": "leetcode:hard"
+                        }
+                    ]
                 },
                 {
                     "label": "Solutions",
@@ -30,16 +34,20 @@
         "submenu": [{
             "label": "Leetcode",
             "submenu": [{
-                    "label": "Easy",
-                    "command": "leetcode:easy"
-                },
-                {
-                    "label": "Medium",
-                    "command": "leetcode:medium"
-                },
-                {
-                    "label": "Hard",
-                    "command": "leetcode:hard"
+                    "label": "Difficulty",
+                    "submenu": [{
+                            "label": "Easy",
+                            "command": "leetcode:easy"
+                        },
+                        {
+                            "label": "Medium",
+                            "command": "leetcode:medium"
+                        },
+                        {
+                            "label": "Hard",
+                            "command": "leetcode:hard"
+                        }
+                    ]
                 },
                 {
                     "label": "Solutions",
