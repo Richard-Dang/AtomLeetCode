@@ -4,7 +4,7 @@ notifications:
   email:
     recipients:
       - richardspacedang@gmail.com
-    on_success: always
+    on_success: change
     on_failure: always
 
 script: 'curl -s https://raw.githubusercontent.com/atom/ci/master/build-package.sh | sh'
