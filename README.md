@@ -1,5 +1,10 @@
 # [Leetcode](https://atom.io/packages/leetcode)
 
+[![Build Status](https://travis-ci.org/Richard-Dang/AtomLeetCode.svg?branch=master)](https://travis-ci.org/Richard-Dang/AtomLeetCode)
+[![Dependency Status](https://david-dm.org/Richard-Dang/AtomLeetCode.svg)](https://david-dm.org/Richard-Dang/AtomLeetCode)
+[![devDependency Status](https://david-dm.org/Richard-Dang/AtomLeetCode.svg)](https://david-dm.org/Richard-Dang/AtomLeetCode#info=devDependencies)
+
+
 ## Description
 
 Atom Leetcode is an atom package that gives programmers the ability to code Leetcode problems straight from their text editors. Users have the option to select the difficulty of the problem and the language they wish to code in. In addition,
