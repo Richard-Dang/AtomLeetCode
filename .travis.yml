@@ -2,7 +2,9 @@ language: objective-c
 
 notifications:
   email:
-    on_success: never
-    on_failure: change
+       recipients:
+      - richardspacedang@gmail.com
+    on_success: always
+    on_failure: always
 
 script: 'curl -s https://raw.githubusercontent.com/atom/ci/master/build-package.sh | sh'
