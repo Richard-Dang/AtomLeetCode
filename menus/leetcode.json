@@ -25,6 +25,10 @@
                 {
                     "label": "Search",
                     "command": "leetcode:search"
+                },
+                {
+                    "label": "Test",
+                    "command": "leetcode:test"
                 }
             ]
         }]
@@ -56,6 +60,10 @@
                 {
                     "label": "Search",
                     "command": "leetcode:search"
+                },
+                {
+                    "label": "Test",
+                    "command": "leetcode:test"
                 }
             ]
         }]
