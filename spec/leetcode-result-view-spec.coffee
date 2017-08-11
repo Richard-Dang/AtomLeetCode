@@ -20,3 +20,41 @@ describe "LeetcodeResultView", ->
                 leetcodeResultView.download('https://leetcode.com/problems/two-sum').then (res) ->
                     expect(leetcodeResultView.scrape(res).description).toBeDefined
                     expect(leetcodeResultView.scrape(res).codeArray).toBeDefined
+
+    describe "when getting a problem", ->
+        beforeEach ->
+            leetcodeResultView.testing = true
+            waitsForPromise ->
+                atom.workspace.open('test.js')
+
+        it "gets an easy problem", ->
+            leetcodeResultView.getProblem(1 , null)
+
+            waitsFor (->
+                leetcodeResultView.allSolutions != -1),'Took too long',10000
+            runs ->
+                expect(leetcodeResultView.codeText).toBeDefined
+
+        it "gets an medium problem", ->
+            leetcodeResultView.getProblem(2 , null)
+
+            waitsFor (->
+                leetcodeResultView.allSolutions != -1),'Took too long',10000
+            runs ->
+                expect(leetcodeResultView.codeText).toBeDefined
+
+        it "gets an hard problem", ->
+            leetcodeResultView.getProblem(3 , null)
+
+            waitsFor (->
+                leetcodeResultView.allSolutions != -1),'Took too long',10000
+            runs ->
+                expect(leetcodeResultView.codeText).toBeDefined
+
+        it "gets solutions", ->
+            leetcodeResultView.getProblem(null,'two sum')
+
+            waitsFor (->
+                leetcodeResultView.allSolutions != -1),'Took too long',10000
+            runs ->
+                expect(leetcodeResultView.allSolutions.length).toBeGreaterThan(0)
