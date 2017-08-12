@@ -1,34 +1,34 @@
 {
-    "name": "Leetcode",
-    "main": "./lib/leetcode",
-    "version": "0.10.2",
-    "description": "Leetcode from Atom",
-    "keywords": [],
-    "activationCommands": {
-        "atom-workspace": [
-            "leetcode:easy",
-            "leetcode:medium",
-            "leetcode:hard",
-            "leetcode:solutions",
-            "leetcode:search"
-        ]
-    },
-    "repository": "https://github.com/Richard-Dang/AtomLeetCode",
-    "license": "MIT",
-    "engines": {
-        "atom": ">=1.0.0 <2.0.0"
-    },
-    "dependencies": {
-        "async": "^2.5.0",
-        "cheerio": "^0.22.0",
-        "request": "^2.73.0",
-        "atom-select-list": "^0.1.0",
-        "fuzzaldrin": "^2.1.0"
-    },
-    "devDependencies": {
-        "auto-changelog": "^0.3.1"
-    },
-    "scripts": {
-        "changelog": "auto-changelog --package --template compact; git add CHANGELOG.md"
-    }
+  "name": "Leetcode",
+  "main": "./lib/leetcode",
+  "version": "0.11.0",
+  "description": "Leetcode from Atom",
+  "keywords": [],
+  "activationCommands": {
+    "atom-workspace": [
+      "leetcode:easy",
+      "leetcode:medium",
+      "leetcode:hard",
+      "leetcode:solutions",
+      "leetcode:search"
+    ]
+  },
+  "repository": "https://github.com/Richard-Dang/AtomLeetCode",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "async": "^2.5.0",
+    "cheerio": "^0.22.0",
+    "request": "^2.73.0",
+    "atom-select-list": "^0.1.0",
+    "fuzzaldrin": "^2.1.0"
+  },
+  "devDependencies": {
+    "auto-changelog": "^0.3.1"
+  },
+  "scripts": {
+    "changelog": "auto-changelog --package --template compact; git add CHANGELOG.md"
+  }
 }
