@@ -31,7 +31,7 @@ describe "LeetcodeResultView", ->
             leetcodeResultView.getProblem(1 , null)
 
             waitsFor (->
-                leetcodeResultView.allSolutions != -1),'Took too long',10000
+                leetcodeResultView.allSolutions != -1),'Took too long',15000
             runs ->
                 expect(leetcodeResultView.codeText).toBeDefined
 
@@ -39,7 +39,7 @@ describe "LeetcodeResultView", ->
             leetcodeResultView.getProblem(2 , null)
 
             waitsFor (->
-                leetcodeResultView.allSolutions != -1),'Took too long',10000
+                leetcodeResultView.allSolutions != -1),'Took too long',15000
             runs ->
                 expect(leetcodeResultView.codeText).toBeDefined
 
@@ -47,7 +47,7 @@ describe "LeetcodeResultView", ->
             leetcodeResultView.getProblem(3 , null)
 
             waitsFor (->
-                leetcodeResultView.allSolutions != -1),'Took too long',10000
+                leetcodeResultView.allSolutions != -1),'Took too long',15000
             runs ->
                 expect(leetcodeResultView.codeText).toBeDefined
 
@@ -55,6 +55,6 @@ describe "LeetcodeResultView", ->
             leetcodeResultView.getProblem(null,'two sum')
 
             waitsFor (->
-                leetcodeResultView.allSolutions != -1),'Took too long',10000
+                leetcodeResultView.allSolutions != -1),'Took too long',15000
             runs ->
                 expect(leetcodeResultView.allSolutions.length).toBeGreaterThan(0)
