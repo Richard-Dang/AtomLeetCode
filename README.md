@@ -15,11 +15,12 @@ certain test cases will automatically be populated for testing purposes.
 ## Features
 
 - Automatically grab an easy, medium or hard question from Leetcode
-- Search for specific questions
+- Search for specific questions with autocomplete
 - Code the question straight from Atom
 - Autodetect current language
 - Certain examples with test cases will automatically be populated for testing
 - Obtain code solutions straight from the Leetcode community
+- Implemented Travis CI with Jasmine specs
 
 ## Screenshots
 
@@ -29,9 +30,6 @@ certain test cases will automatically be populated for testing purposes.
 ## Future Updates
 
 - Link to Leetcode for code submission
-- Difficulty and solution selection inside search menu
-- Confirm and cancel button in search menu
-- Automatically complete question search
 
 ## Credits
 

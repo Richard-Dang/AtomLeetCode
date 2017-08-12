@@ -4,11 +4,6 @@ describe "LeetcodeResultView", ->
     leetcodeResultView = new LeetcodeResultView
 
     describe "when downloading", ->
-        it "returns all the problems", ->
-            waitsForPromise ->
-                leetcodeResultView.download('https://leetcode.com/api/problems/all/').then (res) ->
-                    expect(JSON.parse(res).stat_status_pairs.length).toBeGreaterThan(0)
-
         it "returns a single problem", ->
             waitsForPromise ->
                 leetcodeResultView.download('https://leetcode.com/problems/two-sum').then (res) ->
@@ -21,11 +16,16 @@ describe "LeetcodeResultView", ->
                     expect(leetcodeResultView.scrape(res).description).toBeDefined
                     expect(leetcodeResultView.scrape(res).codeArray).toBeDefined
 
-    describe "when getting a problem", ->
+    describe "when getting problem", ->
         beforeEach ->
             leetcodeResultView.testing = true
             waitsForPromise ->
                 atom.workspace.open('test.js')
+
+        it "gets all problems", ->
+            waitsForPromise ->
+                leetcodeResultView.getQuestionList().then (questionList) ->
+                    expect(questionList.length).toBeGreaterThan(450)
 
         it "gets an easy problem", ->
             leetcodeResultView.getProblem(1 , null)
