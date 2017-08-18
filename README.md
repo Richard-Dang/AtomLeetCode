@@ -9,7 +9,7 @@
 
 ## Description
 
-Atom Leetcode is an atom package that gives programmers the ability to code Leetcode problems straight from their text editors. Users have the option to select the difficulty of the problem and the language they wish to code in. 
+Atom Leetcode is an atom package that gives programmers the ability to code Leetcode problems straight from their text editors. Users have the option to select the difficulty of the problem and the language they wish to code in.
 
 [Change Log](https://github.com/Richard-Dang/AtomLeetCode/blob/master/CHANGELOG.md)
 
@@ -22,7 +22,6 @@ Atom Leetcode is an atom package that gives programmers the ability to code Leet
 - Autodetect current language
 - Certain examples with test cases will automatically be populated for testing
 - Obtain code solutions straight from the Leetcode community
-- Implemented Travis CI with Jasmine specs
 
 ## Screenshots
 
