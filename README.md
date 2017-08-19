@@ -31,6 +31,8 @@ Atom Leetcode is an atom package that gives programmers the ability to code Leet
 ## Future Updates
 
 - Link to Leetcode for code submission
+- Auto generate test cases for testing
+- Support offline for problems and solutions
 
 ## Credits
 
